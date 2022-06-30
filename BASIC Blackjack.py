@@ -34,8 +34,6 @@ while True:
         hit_input = input(" your total is " + str(user_total) + " and dealer has " + str(computer_total) + " would you like to hit (h) or stay? (s) ")
             
         if hit_input == "h":
-            user_total += random.randint(1,11)
-            hit_input = input(" your total is " + str(user_total) + " and dealer has " + str(computer_total) + " would you like to hit (h) or stay? (s) ")
             continue
         
         
