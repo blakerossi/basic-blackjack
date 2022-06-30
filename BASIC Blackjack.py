@@ -1,8 +1,6 @@
 import random
 computer_total = 0
 user_total = 0
-computer_final = 0
-
 
 computer_total += random.randint(1,11)
     
