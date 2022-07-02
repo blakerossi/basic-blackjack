@@ -29,7 +29,9 @@ def winner(computer_total, user_total):
 
     elif user_total == computer_total:
         print("Its a wash! you pushed. Run program to try again.")
-
+    
+    else:
+        print("You both busted, however this means you lost")
 
 while True:
     
